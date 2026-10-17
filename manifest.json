@@ -28,8 +28,8 @@
     "commands": {
         "translate-selection": {
             "suggested_key": {
-                "default": "Alt+B",
-                "mac": "Alt+B"
+                "default": "Ctrl+B",
+                "mac": "Ctrl+B"
             },
             "description": "翻译当前选中的文本为中文"
         }
