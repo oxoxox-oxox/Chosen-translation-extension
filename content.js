@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener((message) => {
   if (message.action === "translateSelection") {
     const selectedText = window.getSelection().toString().trim();
     if (!selectedText) {
-      showPopup("", "请先选中文本，然后再按 Alt+Q 翻译");
+      showPopup("", "请先选中文本，然后再按快捷键翻译");
       return;
     }
     translateAndShow(selectedText);
